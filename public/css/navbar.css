@@ -1,0 +1,18 @@
+body {
+    background-image:linear-gradient(to right, #99ff99,  #4d79ff);
+    padding:10px;
+}
+
+.nav {
+    margin:30px;
+}
+
+.nav li {
+    background-color:#00cc66;
+    border-radius: 2px;
+}
+
+.nav li a{
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+.window {
+    background-color: #4da6ff;
+    border-radius: 5px;
+    color: white;
+    padding: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+#point {
+    font-size: 18px;
+}
+
+#showTimer {
+    text-align: center;
+}
+
+.window #time {
+    margin: auto;
+}
+
+.get {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .window {
+        width: 100%;
+    }
+
+    #quest {
+        font-size: 50px;
+    }
+}
